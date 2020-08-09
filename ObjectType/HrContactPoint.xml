@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="InventoryItem">
-    <sch:name>InventoryItem</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="HrContactPoint">
+    <sch:name>HrContactPoint</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>EntOrgManagement</sch:parentTypeName>
+    <sch:parentTypeName>HrPerson</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -15,7 +15,7 @@
             <sch:name>ScmSupplierId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ScmSupplier</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -38,7 +38,7 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>ItemNumber</sch:name>
+            <sch:name>ContactNumber</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
@@ -66,9 +66,9 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>ItemType</sch:name>
+            <sch:name>Type</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ItemType</sch:enumName>
+            <sch:enumName>ContactPointType</sch:enumName>
             <sch:length>256</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -82,7 +82,7 @@
         <sch:BmfObjectField>
             <sch:name>TrackingType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ItemTrackingType</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>256</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -94,8 +94,8 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>CreatedOn</sch:name>
-            <sch:dataType>DateTime</sch:dataType>
+            <sch:name>StartDate</sch:name>
+            <sch:dataType>Date</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length></sch:length>
             <sch:scale></sch:scale>
@@ -108,8 +108,8 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>EventTime</sch:name>
-            <sch:dataType>DateTime</sch:dataType>
+            <sch:name>EndDate</sch:name>
+            <sch:dataType>Date</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length></sch:length>
             <sch:scale></sch:scale>
@@ -166,6 +166,20 @@
         <sch:BmfObjectField>
             <sch:name>CreatedBy</sch:name>
             <sch:dataType>OID</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>CreatedOn</sch:name>
+            <sch:dataType>DateTime</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length></sch:length>
             <sch:scale></sch:scale>

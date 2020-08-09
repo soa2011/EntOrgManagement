@@ -28,15 +28,15 @@
     <sch:objectType isRef="true">PurchaseReceivingLine</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>InventoryItemId</sch:name>
+            <sch:name>HrContactPointId</sch:name>
             <sch:seqNumber>100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>InventoryItem</sch:refTargetType>
-            <sch:label>InventoryItemId</sch:label>
+            <sch:refTargetType>HrContactPoint</sch:refTargetType>
+            <sch:label>HrContactPointId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

@@ -304,10 +304,10 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>InventoryItem</sch:tableName>
+            <sch:tableName>HrContactPoint</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>4000</sch:seqIndex>
-            <sch:format>InventoryItem(%s)</sch:format>
+            <sch:format>HrContactPoint(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -315,7 +315,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>InventoryItem</sch:tableName>
+            <sch:tableName>HrContactPoint</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>4000</sch:seqIndex>
             <sch:format>%s %s</sch:format>
