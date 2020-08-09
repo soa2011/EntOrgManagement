@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ItemLedgerEntry">
-    <sch:name>ItemLedgerEntry</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="HrPersonRelationship">
+    <sch:name>HrPersonRelationship</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>EntOrgManagement</sch:parentTypeName>
@@ -12,10 +12,10 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>InventoryItemId</sch:name>
+            <sch:name>PersonId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>InventoryItem</sch:relatedObjectType>
+            <sch:relatedObjectType>HrPerson</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -23,10 +23,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>ScmOrderId</sch:name>
+            <sch:name>RelatedPersonId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ScmOrder</sch:relatedObjectType>
+            <sch:relatedObjectType>HrPerson</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -74,7 +74,7 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>BinCode</sch:name>
+            <sch:name>Type</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>256</sch:length>
