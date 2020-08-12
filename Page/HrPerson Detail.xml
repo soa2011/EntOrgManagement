@@ -466,7 +466,7 @@
             <sch:modifyResource2></sch:modifyResource2>
             <sch:singleYesIndicator>false</sch:singleYesIndicator>
             <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
+            <sch:constraints>Range:DateOfBirth</sch:constraints>
             <sch:description></sch:description>
             <sch:className></sch:className>
             <sch:formatter></sch:formatter>
