@@ -175,5 +175,17 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
-    <sch:bmfRules/>
+    <sch:bmfRules>
+        <sch:BmfRule>
+            <sch:name>OrgName_Unique</sch:name>
+            <sch:objectTypeName></sch:objectTypeName>
+            <sch:referenceName></sch:referenceName>
+            <sch:fieldName></sch:fieldName>
+            <sch:ruleType>Validation</sch:ruleType>
+            <sch:ruleCode></sch:ruleCode>
+            <sch:ruleLanguage>Groovy</sch:ruleLanguage>
+            <sch:ruleBody>Unique</sch:ruleBody>
+            <sch:seqNumber>0</sch:seqNumber>
+        </sch:BmfRule>
+    </sch:bmfRules>
 </sch:ObjectType>
