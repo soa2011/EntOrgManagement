@@ -55,7 +55,7 @@
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>false</sch:required>
+            <sch:required>true</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
@@ -115,7 +115,7 @@
             <sch:modifyResource2></sch:modifyResource2>
             <sch:singleYesIndicator>false</sch:singleYesIndicator>
             <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
+            <sch:constraints>Unique</sch:constraints>
             <sch:description></sch:description>
             <sch:className></sch:className>
             <sch:formatter></sch:formatter>
@@ -466,7 +466,7 @@
             <sch:modifyResource2></sch:modifyResource2>
             <sch:singleYesIndicator>false</sch:singleYesIndicator>
             <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
+            <sch:constraints>Range:DateOfBirth</sch:constraints>
             <sch:description></sch:description>
             <sch:className></sch:className>
             <sch:formatter></sch:formatter>
