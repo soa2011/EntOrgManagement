@@ -136,4 +136,17 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules>
+        <sch:BmfRule>
+            <sch:name>Classification_Unique</sch:name>
+            <sch:objectTypeName>OrgUnitClassification</sch:objectTypeName>
+            <sch:referenceName></sch:referenceName>
+            <sch:fieldName>ClassificationId</sch:fieldName>
+            <sch:ruleType>Validation</sch:ruleType>
+            <sch:ruleCode></sch:ruleCode>
+            <sch:ruleLanguage></sch:ruleLanguage>
+            <sch:ruleBody>UniqueInParent</sch:ruleBody>
+            <sch:seqNumber>2</sch:seqNumber>
+        </sch:BmfRule>
+    </sch:bmfRules>
 </sch:ObjectType>
