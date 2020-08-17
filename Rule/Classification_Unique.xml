@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="Classification_Unique">
+    <sch:name>Classification_Unique</sch:name>
+    <sch:objectTypeName>OrgUnitClassification</sch:objectTypeName>
+    <sch:referenceName></sch:referenceName>
+    <sch:fieldName>ClassificationId</sch:fieldName>
+    <sch:ruleType>Validation</sch:ruleType>
+    <sch:ruleCode></sch:ruleCode>
+    <sch:ruleLanguage>UVL</sch:ruleLanguage>
+    <sch:ruleBody>UniqueInParent</sch:ruleBody>
+    <sch:seqNumber>2</sch:seqNumber>
+    <sch:description>ClassificationId不能重复</sch:description>
+</sch:Rule>

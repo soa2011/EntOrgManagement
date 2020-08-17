@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="Code_Unique">
+    <sch:name>Code_Unique</sch:name>
+    <sch:objectTypeName>OrgUnit</sch:objectTypeName>
+    <sch:referenceName></sch:referenceName>
+    <sch:fieldName>Code</sch:fieldName>
+    <sch:ruleType>Validation</sch:ruleType>
+    <sch:ruleCode></sch:ruleCode>
+    <sch:ruleLanguage>UVL</sch:ruleLanguage>
+    <sch:ruleBody>Unique</sch:ruleBody>
+    <sch:seqNumber>4</sch:seqNumber>
+    <sch:description>Code不能重复</sch:description>
+</sch:Rule>
