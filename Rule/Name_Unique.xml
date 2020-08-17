@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="Name_Unique">
+    <sch:name>Name_Unique</sch:name>
+    <sch:objectTypeName>OrgUnit</sch:objectTypeName>
+    <sch:referenceName></sch:referenceName>
+    <sch:fieldName>Name</sch:fieldName>
+    <sch:ruleType>Validation</sch:ruleType>
+    <sch:ruleCode></sch:ruleCode>
+    <sch:ruleLanguage></sch:ruleLanguage>
+    <sch:ruleBody>Unique</sch:ruleBody>
+    <sch:seqNumber>3</sch:seqNumber>
+</sch:Rule>
