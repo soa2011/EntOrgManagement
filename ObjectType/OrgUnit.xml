@@ -186,6 +186,7 @@
             <sch:ruleLanguage>UVL</sch:ruleLanguage>
             <sch:ruleBody>Unique</sch:ruleBody>
             <sch:seqNumber>3</sch:seqNumber>
+            <sch:description>Name不能重复</sch:description>
         </sch:BmfRule>
         <sch:BmfRule>
             <sch:name>Code_Unique</sch:name>
@@ -197,6 +198,7 @@
             <sch:ruleLanguage>UVL</sch:ruleLanguage>
             <sch:ruleBody>Unique</sch:ruleBody>
             <sch:seqNumber>4</sch:seqNumber>
+            <sch:description>Code不能重复</sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
 </sch:ObjectType>
