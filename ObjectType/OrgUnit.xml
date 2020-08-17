@@ -183,7 +183,7 @@
             <sch:fieldName>Name</sch:fieldName>
             <sch:ruleType>Validation</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
+            <sch:ruleLanguage>UVL</sch:ruleLanguage>
             <sch:ruleBody>Unique</sch:ruleBody>
             <sch:seqNumber>3</sch:seqNumber>
         </sch:BmfRule>
@@ -194,7 +194,7 @@
             <sch:fieldName>Code</sch:fieldName>
             <sch:ruleType>Validation</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
+            <sch:ruleLanguage>UVL</sch:ruleLanguage>
             <sch:ruleBody>Unique</sch:ruleBody>
             <sch:seqNumber>4</sch:seqNumber>
         </sch:BmfRule>

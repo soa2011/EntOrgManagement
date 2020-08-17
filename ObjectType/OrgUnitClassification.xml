@@ -144,7 +144,7 @@
             <sch:fieldName>ClassificationId</sch:fieldName>
             <sch:ruleType>Validation</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
+            <sch:ruleLanguage>UVL</sch:ruleLanguage>
             <sch:ruleBody>UniqueInParent</sch:ruleBody>
             <sch:seqNumber>2</sch:seqNumber>
         </sch:BmfRule>
